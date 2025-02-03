@@ -1,5 +1,3 @@
-# I confirm that this submission is my own work and is consistent with the Queen's regulations on Academic integrity
-
 class Stack:
     # Defining initialization values
     def __init__(self):
@@ -291,48 +289,3 @@ print("")
 SFFour(-1,22)
 print("")
 print("")
-
-
-
-# This code was used during the initial development of my stack to test its various functions for whether they worked
-'''
-# Testing the stack
-result_stack = Stack()
-
-# Test push
-result_stack.push(13)
-result_stack.push(132)
-print(result_stack)
-
-# Test pop
-result_stack.pop()
-print(result_stack)
-print(result_stack.pop())
-print(result_stack)
-
-# Test is empty
-print(result_stack.isEmpty())
-result_stack.push(1)
-print(result_stack.isEmpty())
-
-# Test is full
-result_stack.push(2)
-result_stack.push(3)
-result_stack.push(4)
-result_stack.push(5)
-result_stack.push(6)
-result_stack.push(7)
-result_stack.push(8)
-result_stack.push(9)
-print(result_stack)
-print(result_stack.isFull())
-result_stack.push(10)
-print(result_stack.isFull())
-
-# Test bigger stack size
-
-print(result_stack.sizeOf())
-result_stack.push(11)
-print(result_stack.sizeOf())
-print(result_stack)
-'''
